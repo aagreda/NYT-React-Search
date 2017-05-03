@@ -1,8 +1,8 @@
 // Dependencies
-import express from 'express';
-import bodyParser from 'body-parser';
-import path from 'path';
-import routes from './routes/routes';
+var express = require("express");
+var bodyParser = require("body-parser");
+var path = require("path");
+var routes = require("./routes/routes")
 
 // Initialize Express
 var app = express();
